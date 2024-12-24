@@ -1,0 +1,10 @@
+export { default as Home } from "./Home";
+export { default as Contact } from "./Contact";
+export { default as AboutUs } from "./AboutUs";
+export { default as Blogs } from "./Blogs";
+export { default as Testimonials } from "./TestimonialsPage";
+// export { default as PaginatedItems } from "./TestimonialsPage";
+export { default as HiringDetails } from "./HiringDetails";
+export { default as Projects } from "./Projects";
+export { default as FindJob } from "./FindJob";
+// export { default as NftFilter } from "./NftFilter";

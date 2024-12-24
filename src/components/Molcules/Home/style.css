@@ -1,0 +1,61 @@
+/* .swiper-pagination */
+
+.swiper{
+
+}
+.swiper-pagination{
+    position: absolute;
+    left: -98px !important;
+}
+@media (min-width: 430px){
+    .swiper-pagination{
+        position: absolute;
+        left: -150px !important;
+    }
+}
+@media (min-width: 768px){
+    .swiper-pagination{
+        position: absolute;
+        left: -300px !important;
+    }
+}
+@media (min-width: 1024px){
+    .swiper-pagination{
+        position: absolute;
+        left: -385px !important;
+    }
+}
+@media (min-width: 1100px){
+    .swiper-pagination{
+        position: absolute;
+        left: -420px !important;
+    }
+}
+@media (min-width: 1150px){
+    .swiper-pagination{
+        position: absolute;
+        left: -460px !important;
+    }
+}
+
+ 
+  .swiper-pagination-line {
+    width: 19px;
+    height: 1.9px;
+    border-radius: 14%;
+    background-color: #D2D2D2; /* Default color for lines */
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing between lines */
+    cursor: pointer;
+    transition: background-color 10s ease-in-out;
+  }
+  .swiper-pagination-line.active {
+    background-color: #000; 
+    transition: background-color 10s ease-in-out;
+
+  }
+
+  
+  
+  /* Style for active pagination line */
+  
