@@ -26,7 +26,7 @@ function App() {
         <Route path="/:events" element={<HiringDetails />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/findjob" element={<FindJob />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
       {/* <PaginatedItems itemsPerPage={12} /> */}
       <Footer />
