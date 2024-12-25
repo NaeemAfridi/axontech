@@ -36,7 +36,7 @@ export const itemList = [
   },
   {
     name: "Privacy Policy",
-    to: "/privacy",
-    value: "privacy",
+    to: "/privacy-policy",
+    value: "privacy-policy",
   },
 ];

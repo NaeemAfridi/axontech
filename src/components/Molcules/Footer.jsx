@@ -107,7 +107,7 @@ export default function Footer() {
                 </li>
                 <li className="my-2 cursor-pointer">
                   <Link
-                    to="/privacy"
+                    to="/privacy-policy"
                     className="text-gray-500 dark:text-neutral-200"
                   >
                     Setting & Privacy
