@@ -9,6 +9,7 @@ import {
   HiringDetails,
   Projects,
   FindJob,
+  PrivacyPolicy,
 } from "./pages";
 import { Route, Routes } from "react-router-dom";
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/:events" element={<HiringDetails />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/findjob" element={<FindJob />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
       {/* <PaginatedItems itemsPerPage={12} /> */}
       <Footer />

@@ -34,4 +34,9 @@ export const itemList = [
     to: "/projects",
     value: "projects",
   },
+  {
+    name: "Privacy Policy",
+    to: "/privacy",
+    value: "privacy",
+  },
 ];

@@ -7,4 +7,5 @@ export { default as Testimonials } from "./TestimonialsPage";
 export { default as HiringDetails } from "./HiringDetails";
 export { default as Projects } from "./Projects";
 export { default as FindJob } from "./FindJob";
+export { default as PrivacyPolicy } from "./PrivacyPolicy";
 // export { default as NftFilter } from "./NftFilter";

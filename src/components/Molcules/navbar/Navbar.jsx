@@ -76,6 +76,11 @@ function Navbar() {
                 Contact
               </button>
             </Link>
+            <Link onClick={() => setShowMenu(false)} to="/contact">
+              <button className="bg-custom-gradient inline-flex items-center border-0 py-1 px-3 rounded-lg focus:outline-none text-gray-200 text-base mt-4 md:mt-0">
+                Contact
+              </button>
+            </Link>
           </nav>
         </div>
       </div>
